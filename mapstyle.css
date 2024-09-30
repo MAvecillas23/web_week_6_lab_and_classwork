@@ -1,0 +1,6 @@
+/* setting the size of college map*/
+#college-map {
+    width: 600px;
+    height: 500px;
+    border: 1px green solid;
+}
