@@ -1,0 +1,15 @@
+/* size and style of bridge map */
+#bridge {
+    width: 600px;
+    height: 500px;
+    border: 1px lightblue solid;
+
+}
+/*background color beige*/
+body {
+    background: beige;
+}
+/* align header and paragraph for the bar chart to the center*/
+.bar-text {
+    text-align: center;
+}

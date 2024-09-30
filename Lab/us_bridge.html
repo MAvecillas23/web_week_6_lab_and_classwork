@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Leaflet script and CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+
+    <!-- Our stylesheet. Make sure the size of the map div is set before trying to draw the map.-->
+    <link rel="stylesheet" type="text/css" href="us_bridge_style.css">
+    <!-- Our script, uses Leaflet to draw the maps and map components for this page  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+    <script async defer src="us_bridge.js"></script>
+
+</head>
+<body>
+
+<!--this div will be for the map-->
+<h1>The United States top 5 longest bridges</h1>
+<div id="bridge"></div>
+
+
+<br><br>
+
+
+<h1 class="bar-text">Here are the Numbers:</h1>
+<p class="bar-text">A bar graph of the top 5 bridges side by side and their length in meters</p>
+<!--this canvas is for the bar chart-->
+<canvas id="bridge-chart"></canvas>
+
+
+
+</body>
+</html>
